@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ZombieHighSchool_Taipei</title>
-    <link>https://tokillme.github.io/Taipei/categories/</link>
+    <link>https://tokillme.github.io/taipei/categories/</link>
     <description>Recent content in Categories on ZombieHighSchool_Taipei</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://tokillme.github.io/Taipei/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language><atom:link href="https://tokillme.github.io/taipei/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
