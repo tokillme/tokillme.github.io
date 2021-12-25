@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on 世宗_blog</title>
+    <link>https://tokillme.github.io/tags/programming/</link>
+    <description>Recent content in programming on 世宗_blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 01 Jul 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://tokillme.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>for Simple 爬蟲</title>
+      <link>https://tokillme.github.io/blog/excelvba/</link>
+      <pubDate>Thu, 01 Jul 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/excelvba/</guid>
+      <description>利用VBA語法 輕鬆爬取 上櫃公司股價排行榜 Sub 上櫃公司股價排行表()Dim oXML As ObjectSet oXML = CreateObject(&amp;quot;WinHttp.</description>
+    </item>
+    
+    <item>
+      <title>for Simple stock Analysis</title>
+      <link>https://tokillme.github.io/blog/stockanalysis/</link>
+      <pubDate>Sun, 30 May 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/stockanalysis/</guid>
+      <description>簡易即時link url 取得台灣證卷交易所資訊 並用python 做一個股票即時的分析 練習demo panda dataframe import requests import pandas as pd url=&amp;#39;https://www.</description>
+    </item>
+    
+    <item>
+      <title>for Google 雲端自動化</title>
+      <link>https://tokillme.github.io/blog/appsscropt/</link>
+      <pubDate>Fri, 30 Apr 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/appsscropt/</guid>
+      <description>DEMO Google 報表 做雲端自動化 當Google表單，填表完成，自動通知 說明:即時雲端報表，能即時通知損壞設備 論述:需設置line notify 並使用javascript動態判斷表格透過line notify即時通知LLINE群組 var lineToken=&amp;#39;line Notify權杖碼&amp;#39;; var LineText=&amp;#39;&amp;#39;; function main(){ var sheet = SpreadsheetApp.</description>
+    </item>
+    
+    <item>
+      <title>stchanga test first page</title>
+      <link>https://tokillme.github.io/blog/test/</link>
+      <pubDate>Fri, 25 Sep 2020 21:18:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/test/</guid>
+      <description>im stchange(世宗)
+第一次嘗試用Markdown 寫文章
+還是覺得有點生疏
+ 換行就是空一行  序列編排要空4格  內縮 再內縮     有序序列第一行   Hello這是個無序序列 有一隻手  內縮無序序列   Hello無序序列2 第二隻手   HELLO 引用樣式</description>
+    </item>
+    
+  </channel>
+</rss>

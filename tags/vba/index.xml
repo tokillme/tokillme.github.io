@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VBA on 世宗_blog</title>
+    <link>https://tokillme.github.io/tags/vba/</link>
+    <description>Recent content in VBA on 世宗_blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 01 Jul 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://tokillme.github.io/tags/vba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>for Simple 爬蟲</title>
+      <link>https://tokillme.github.io/blog/excelvba/</link>
+      <pubDate>Thu, 01 Jul 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/excelvba/</guid>
+      <description>利用VBA語法 輕鬆爬取 上櫃公司股價排行榜 Sub 上櫃公司股價排行表()Dim oXML As ObjectSet oXML = CreateObject(&amp;quot;WinHttp.</description>
+    </item>
+    
+  </channel>
+</rss>

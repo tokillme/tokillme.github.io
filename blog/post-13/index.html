@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>世宗_blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is java random demo">
+  <meta name="author" content="Stchanga">
+  <meta name="generator" content="Hugo 0.89.4" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://tokillme.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://tokillme.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://tokillme.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://tokillme.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://tokillme.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://tokillme.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://tokillme.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-213964497-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://tokillme.github.io"><img class="img-fluid"
+          src="https://tokillme.github.io/images/DOG.png" alt="世宗_blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tokillme"><i class="ti-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://tokillme.github.io"><img class="img-fluid"
+            src="https://tokillme.github.io/images/DOG.png" alt="世宗_blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://tokillme.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://tokillme.github.io/blog">Blog</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://tokillme.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://tokillme.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/java"
+          class="text-primary">Java</a>
+        
+        <h2>for JAVA random</h2>
+        <div class="mb-3 post-meta">
+          <span>By Stchanga</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>30 October 2020</span>
+          
+        </div>
+        
+        <img src="https://tokillme.github.io/images/post/post-3.jpg" class="img-fluid w-100 mb-4" alt="for JAVA random">
+        
+        <div class="content mb-5">
+          <h4 id="1setrandom-是計算的method取整數-intmathrandom最大範圍值-最小範圍值1最小範圍值">1.setRandom() 是計算的method取整數 (int)(Math.random()*(最大範圍值-最小範圍值+1)+最小範圍值)</h4>
+<h4 id="2show-method-印出取到亂數整數">2.show() method 印出取到亂數整數</h4>
+<h4 id="3sort_setrandom-method-顧名思義就是排序亂數值">3.sort_setRandom() method 顧名思義就是排序亂數值</h4>
+<h4 id="4main-method-搭配user-使用scanner-取出需求亂數">4.main() method 搭配USER 使用Scanner 取出需求亂數</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#00f">import</span> <span style="color:#000">java.util.*</span>;
+<span style="color:#00f">public</span> <span style="color:#00f">class</span> <span style="color:#000">Bonus_line</span>
+{
+	<span style="color:#888;font-style:italic">//random的範圍設定
+</span><span style="color:#888;font-style:italic"></span>	<span style="color:#00f">int</span> <span style="color:#000">numtime</span>;
+	<span style="color:#00f">public</span> <span style="color:#00f">int</span>[] <span style="color:#000">setRandom</span>(<span style="color:#00f">int</span>[] <span style="color:#000">num</span>,<span style="color:#00f">int</span> <span style="color:#000">numlength</span>,<span style="color:#00f">int</span> <span style="color:#000">maxtime</span>,<span style="color:#00f">int</span> <span style="color:#000">mintime</span>)
+	{
+		<span style="color:#00f">this</span>.<span style="color:#000">numtime</span>=<span style="color:#000">numlength</span>;
+		<span style="color:#888;font-style:italic">/*this.num=num;
+</span><span style="color:#888;font-style:italic">		this.numlength=numlength;
+</span><span style="color:#888;font-style:italic">		this.maxtime=maxtime;
+</span><span style="color:#888;font-style:italic">		this.mintime=mintime;*/</span>
+		<span style="color:#00f">for</span>(<span style="color:#00f">int</span> <span style="color:#000">i</span>=<span style="color:#000">0</span>;<span style="color:#000">i</span>&lt;<span style="color:#00f">this</span>.<span style="color:#000">numtime</span>;<span style="color:#000">i</span>++)
+		{
+			<span style="color:#000">num</span>[<span style="color:#000">i</span>]=(<span style="color:#00f">int</span>)(<span style="color:#000">Math</span>.<span style="color:#000">random</span>()*(<span style="color:#000">maxtime</span>-<span style="color:#000">mintime</span>+<span style="color:#000">1</span>)+<span style="color:#000">mintime</span>);
+			<span style="color:#00f">int</span> <span style="color:#000">j</span>=<span style="color:#000">0</span>;
+			<span style="color:#00f">while</span>(<span style="color:#000">j</span>&lt;<span style="color:#000">i</span>)
+			{
+				<span style="color:#00f">if</span>(<span style="color:#000">num</span>[<span style="color:#000">j</span>]==<span style="color:#000">num</span>[<span style="color:#000">i</span>])
+				{
+					<span style="color:#000">i</span>--;
+					<span style="color:#00f">break</span>;
+				}
+				<span style="color:#000">j</span>++;
+			}
+		}
+		<span style="color:#00f">return</span> <span style="color:#000">num</span>;
+	}
+	
+	<span style="color:#00f">public</span> <span style="color:#00f">static</span> <span style="color:#00f">void</span> <span style="color:#000">show</span>(<span style="color:#00f">int</span>[] <span style="color:#000">num</span>)
+	{
+		<span style="color:#00f">for</span>(<span style="color:#00f">int</span> <span style="color:#000">i</span>=<span style="color:#000">0</span>;<span style="color:#000">i</span>&lt;<span style="color:#000">num</span>.<span style="color:#000">length</span>;<span style="color:#000">i</span>++)
+			<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">print</span>(<span style="color:#000">num</span>[<span style="color:#000">i</span>]+<span style="color:#5a2">&#34;\t&#34;</span>);
+	}
+	<span style="color:#00f">public</span> <span style="color:#00f">void</span> <span style="color:#000">sort_setRandom</span>(<span style="color:#00f">int</span>[] <span style="color:#000">num</span>)
+	{
+		<span style="color:#000">Arrays</span>.<span style="color:#000">sort</span>(<span style="color:#000">num</span>);
+	}
+	<span style="color:#00f">public</span> <span style="color:#00f">static</span> <span style="color:#00f">void</span> <span style="color:#000">main</span>(<span style="color:#000">String</span> <span style="color:#000">args</span>[])
+	{
+		<span style="color:#00f">int</span> <span style="color:#000">numlength</span>,<span style="color:#000">minnum</span>,<span style="color:#000">maxnum</span>;
+		<span style="color:#00f">int</span>[] <span style="color:#000">num</span>;
+		<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">print</span>(<span style="color:#5a2">&#34;請輸入要幾個亂數:&#34;</span>);
+		<span style="color:#000">Scanner</span> <span style="color:#000">sc</span>=<span style="color:#00f">new</span> <span style="color:#000">Scanner</span>(<span style="color:#000">System</span>.<span style="color:#000">in</span>);
+		<span style="color:#000">numlength</span>=<span style="color:#000">sc</span>.<span style="color:#000">nextInt</span>();
+		<span style="color:#000">num</span>= <span style="color:#00f">new</span> <span style="color:#00f">int</span>[<span style="color:#000">numlength</span>];
+		<span style="color:#00f">do</span>
+		{
+		
+		
+		<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">print</span>(<span style="color:#5a2">&#34;請輸入上界值:&#34;</span>);
+		<span style="color:#000">maxnum</span>=<span style="color:#000">sc</span>.<span style="color:#000">nextInt</span>();
+		
+		<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">print</span>(<span style="color:#5a2">&#34;請輸入下界值:&#34;</span>);
+		<span style="color:#000">minnum</span>=<span style="color:#000">sc</span>.<span style="color:#000">nextInt</span>();
+		}<span style="color:#00f">while</span>(<span style="color:#000">maxnum</span>&lt;<span style="color:#000">minnum</span> &amp;&amp; <span style="color:#000">maxnum</span>-<span style="color:#000">minnum</span>&lt;<span style="color:#000">numlength</span>);
+		<span style="color:#000">Activity1_23</span> <span style="color:#000">acti</span>=<span style="color:#00f">new</span> <span style="color:#000">Activity1_23</span>();
+		<span style="color:#000">acti</span>.<span style="color:#000">setRandom</span>(<span style="color:#000">num</span>,<span style="color:#000">numlength</span>,<span style="color:#000">maxnum</span>,<span style="color:#000">minnum</span>);
+		<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">print</span>(<span style="color:#5a2">&#34;中獎的數字為:&#34;</span>);
+		<span style="color:#000">show</span>(<span style="color:#000">num</span>);	
+		<span style="color:#000">acti</span>.<span style="color:#000">sort_setRandom</span>(<span style="color:#000">num</span>);
+		<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">println</span>();
+		<span style="color:#000">System</span>.<span style="color:#000">out</span>.<span style="color:#000">print</span>(<span style="color:#5a2">&#34;排序後大到小為: &#34;</span>);
+		<span style="color:#000">show</span>(<span style="color:#000">num</span>);
+		
+		
+		
+	}
+}
+</code></pre></div><!-- raw HTML omitted -->
+<h5 id="簡單亂數作品">簡單亂數作品</h5>
+<p>本身是拿去當Bonus使用，成員能像大樂透一樣選擇數字</p>
+<p>假如對中號碼 能獲獎的方式</p>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>相關 JAVA Link 參考API</p>
+</blockquote>
+<p><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Random.html">java Class Random API</a></p>
+<p><a href="https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/317997/">完整介紹random</a></p>
+<!-- raw HTML omitted -->
+<h5 id="執行方式">執行方式</h5>
+<p>在目標路徑存成 Bonus_line.java</p>
+<ol>
+<li>
+<p>win10開啟命令提示字元、Mac 開啟 terminal</p>
+</li>
+<li>
+<p>在Bonus_line.java目標路徑，執行:<strong>javac Bonus_line.java</strong></p>
+</li>
+<li>
+<p>產生一個<strong>Bonus_line.class</strong>，即可執行:<strong>java Bonus_line</strong></p>
+</li>
+<li>
+<p>或使用相關IDE 能免去上面2、3步驟麻煩，直接執行</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h3 id="寫code-只有不斷嘗試每次嘗試都是一種進步才能學到東西"><em>寫code 只有不斷嘗試，每次嘗試都是一種進步，才能學到東西</em></h3>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tokillme" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://tokillme.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://tokillme.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://tokillme.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://tokillme.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://tokillme.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://tokillme.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://tokillme.github.io/plugins/search/mark.js"></script>
+
+<script src="https://tokillme.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://tokillme.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

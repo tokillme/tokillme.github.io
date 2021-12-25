@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hobby on 世宗_blog</title>
+    <link>https://tokillme.github.io/tags/hobby/</link>
+    <description>Recent content in Hobby on 世宗_blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 30 Nov 2021 21:18:47 +0800</lastBuildDate><atom:link href="https://tokillme.github.io/tags/hobby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>讀書計畫-精密與自動化工程組</title>
+      <link>https://tokillme.github.io/blog/plan/</link>
+      <pubDate>Tue, 30 Nov 2021 21:18:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/plan/</guid>
+      <description>一.請說明報考本專班的動機： 身為IT相關工程師，時時刻刻都要讓自己不斷學 習新知識，才不會被資訊發達的時代淘汰，剛好網路 查到交大有自動化相關科系-精密與自動化工程組，且 看課程很多都感興趣，像機器人學、數位控制、影像 自動化，都很有未來性   二.請說明您過去的學經歷及成就對於就讀本專班有哪些幫助： 畢業於屏東商業技術學院-電腦與通訊系，雖然 累積很多軟體知識，但想增進硬體技術，剛好本組能 補足很多硬體的技術知識，隨時代發展一個再好的硬 體，當容易被複製時，就需要有好的軟體開發人員， 才不會是廢鐵。   三.</description>
+    </item>
+    
+    <item>
+      <title>蝦皮我的網路賣場</title>
+      <link>https://tokillme.github.io/blog/sharpin/</link>
+      <pubDate>Thu, 01 Oct 2020 10:07:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/sharpin/</guid>
+      <description>這是我的蝦皮賣場 也歡迎各位GK愛好來交流，或GK一換多 </description>
+    </item>
+    
+    <item>
+      <title>stchanga test first page</title>
+      <link>https://tokillme.github.io/blog/test/</link>
+      <pubDate>Fri, 25 Sep 2020 21:18:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/test/</guid>
+      <description>im stchange(世宗)
+第一次嘗試用Markdown 寫文章
+還是覺得有點生疏
+ 換行就是空一行  序列編排要空4格  內縮 再內縮     有序序列第一行   Hello這是個無序序列 有一隻手  內縮無序序列   Hello無序序列2 第二隻手   HELLO 引用樣式</description>
+    </item>
+    
+  </channel>
+</rss>

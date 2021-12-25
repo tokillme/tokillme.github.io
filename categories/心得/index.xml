@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>心得 on 世宗_blog</title>
+    <link>https://tokillme.github.io/categories/%E5%BF%83%E5%BE%97/</link>
+    <description>Recent content in 心得 on 世宗_blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 25 Sep 2020 21:18:47 +0800</lastBuildDate><atom:link href="https://tokillme.github.io/categories/%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>stchanga test first page</title>
+      <link>https://tokillme.github.io/blog/test/</link>
+      <pubDate>Fri, 25 Sep 2020 21:18:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/test/</guid>
+      <description>im stchange(世宗)
+第一次嘗試用Markdown 寫文章
+還是覺得有點生疏
+ 換行就是空一行  序列編排要空4格  內縮 再內縮     有序序列第一行   Hello這是個無序序列 有一隻手  內縮無序序列   Hello無序序列2 第二隻手   HELLO 引用樣式</description>
+    </item>
+    
+  </channel>
+</rss>

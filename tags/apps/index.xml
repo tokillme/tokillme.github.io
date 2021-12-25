@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apps on 世宗_blog</title>
+    <link>https://tokillme.github.io/tags/apps/</link>
+    <description>Recent content in apps on 世宗_blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 30 Apr 2021 10:07:47 +0800</lastBuildDate><atom:link href="https://tokillme.github.io/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>for Google 雲端自動化</title>
+      <link>https://tokillme.github.io/blog/appsscropt/</link>
+      <pubDate>Fri, 30 Apr 2021 10:07:47 +0800</pubDate>
+      
+      <guid>https://tokillme.github.io/blog/appsscropt/</guid>
+      <description>DEMO Google 報表 做雲端自動化 當Google表單，填表完成，自動通知 說明:即時雲端報表，能即時通知損壞設備 論述:需設置line notify 並使用javascript動態判斷表格透過line notify即時通知LLINE群組 var lineToken=&amp;#39;line Notify權杖碼&amp;#39;; var LineText=&amp;#39;&amp;#39;; function main(){ var sheet = SpreadsheetApp.</description>
+    </item>
+    
+  </channel>
+</rss>
