@@ -161,10 +161,8 @@ a, a:active, a:focus, a:active {
 /*--
     header-img start Start
 --*/
-
 .overlay {
   position: relative;
-
 }
 
 .overlay:before {
@@ -194,9 +192,9 @@ nav {
 }
 
 nav .block {
-  margin-top: -20px;
+  margin-top: -85px;
   background: #fff;
-  padding: 10px 15px;
+  padding: 25px 40px;
   background: rgba(255, 255, 255, 0.89);
 }
 
@@ -219,7 +217,7 @@ nav .block .navbar-default .navbar-nav>li>a {
   color: #2E2E2E;
   padding: 10px 0px;
   margin: 0px 15px;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -295,15 +293,9 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 
 #about-us .block p {
   color: #959595;
-  font-size: 22px;
-  line-height: 50px;
-  padding: 40px 20px;
-  font-family: Microsoft JhengHei;
-}
-
-#about-us .block img {
-  width: 50%;
-  height: 50%;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 40px 0px;
 }
 
 /*--
@@ -341,6 +333,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   transition: all 0.8s ease-out;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .post-content {
@@ -348,7 +341,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   position: relative;
   flex-basis: 50%;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .post-content::before {
@@ -440,9 +433,8 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #price .block>p {
-  color: #635757;
-  font-family: Microsoft JhengHei;
-  font-size: 20px;
+  color: #9D9D9D;
+  font-size: 16px;
   line-height: 26px;
   padding: 40px 133px 0;
   text-align: center;
@@ -484,15 +476,11 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 #price .block .pricing-list ul li .item .item-title span {
   float: right;
   color: #938463;
-  font-size: 20px;
-  font-family: Microsoft JhengHei;
 }
 
 #price .block .pricing-list ul li .item p {
   padding: 12px 0 0px;
-  color: #551111;
-  font-size: 20px;
-  font-family: Microsoft JhengHei;
+  color: #949494;
 }
 
 #price .block .pricing-list .btn {
@@ -501,7 +489,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   background: none;
   color: #FF4F02;
   border: 1px solid #FF4F02;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: .3s all;
